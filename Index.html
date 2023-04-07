@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Kyle Tasmoredjo</title>
+</head>
+<body>
+    <main>
+        <div class="nav-container">
+            <nav>
+                <img src="Img/logo.png" id="logo" alt="">
+            <h1 id="nav-helper">X-O</h1>
+            <ul>
+                <li>
+                    <a href="#">HOME</a>
+                </li>
+                <li>
+                    <a href="#aboutme">ABOUT</a>
+                </li>
+                <li>
+                    <a href="#shorcut4">PROJECTS</a>
+                </li>
+            </ul>
+        </nav>
+        </div>
+
+        <section class="start" >
+            <div class="start-text">
+                <h1>Hello.</h1>
+                <p> Ik ben Kyle Tasmoredjo.</p>
+            </div>
+            <div class="start-photo">
+                <img src="Img/Mainstat.png" alt="">
+            </div>
+        </section>
+
+        <section class="intro-right" id="aboutme">
+            <img src="Img/content1.png" alt="">
+            <div class="content-right">
+                <h1 class="fade_in">ABOUT</h1>
+                <p class="fade_in">Mijn naam is kyle tasmmoredjo en ik ben een  
+                    developer. Ik ben meer ingericht in Game development en mobile developmet. verder doet ik ook een beetje digital art, maar ik zet dat niet omdat mijn level amateurisch is.</p>
+            </div>
+        </section>
+
+        <section class="intro-left background-left">
+            <img src="Img/content2.png" alt="">
+            <div class="content-left">
+                <h1 class="fade_in">Game Developer</h1>
+                <p class="fade_in">Ik ben een game developer. Ik maak gebruikt van unity game engine om mijn games te maken. Verder ook houd ik mijn bezig met charachter design and modeling voor bepaalde games. Zowel 2D als 3D</p>
+            </div>
+        </section>
+
+        <section class="intro-right">
+            <img src="Img/content3.png" alt="">
+            <div class="content-right">
+                <h1 class="fade_in">Mobile Developer</h1>
+                <p class="fade_in">Ik ben a mobile developer. Ik maak mobile apps and games voor android door gebruikt te maken van unity game engine en ook
+                    android studio. 
+                </p>
+            </div>
+        </section>
+        <section class="intro-left background-left2" id="shorcut4">
+            <img src="Img/content4.png" alt="">
+            <div class="content-left content-boxes">
+                <h1 class="fade_in">PROJECTS</h1>
+                <div class="fade_in content-box">
+                    <a data-modal-fallen="#fallen"><img src="Img/Project_Fallen.png" alt=""></a>
+                    <a data-modal-parrot="#doll"> <img src="Img/Project_3D.png" alt=""></a>
+                    <a data-modal-remember="#remember"><img src="Img/Project_remember.png" alt=""></a>
+                </div>
+            </div>
+          
+        </section>
+    
+
+    </main>
+    <footer class="footer">
+       <div class="footer-left">
+           <img src="Img/logo.png" alt="">
+       </div>
+        <div class="footer-middle">
+         <button data-modal-target="#contact" class="footer-btn">Contact me!</button>
+        </div>
+        <div class="footer-right">
+            <p>ERROR X_O</p>
+        </div>
+    </footer>
+    <div class="modal-back" id="contact">
+        <div class="modal">
+            <h2>Contacts</h2>
+            <a href="https://www.instagram.com/">   <img class="icon" src="Img/icon1.png" alt=""></a>
+            <a href="https://www.facebook.com/">   <img class="icon" src="Img/icon2.png" alt=""></a>
+            <a href="https://www.whatsapp.com/">   <img class="icon" src="Img/icon3.png" alt=""></a>
+            <button data-ftr-close class="close-btn">&times;</button>
+        </div>
+    </div>
+    <div class="modal-back" id="doll">
+        <div class="modal">
+            <h2>3D modeling</h2>
+           <p>Ik heb ook kennis in 3d moddeling. Voor 3D modeling gebruik blender studios om characters te maken voor games of ander soort projecten</p>
+           <img src="Img/blender.jpeg" alt="">
+            <button data-ftr-close class="close-btn">&times;</button>
+        </div>
+    </div>
+
+    <div class="modal-back" id="fallen">
+        <div class="modal">
+            <h2>Fallen Void</h2>
+           <p>Het is een mobile game waarmee ik bezig bent. Ik maak gebruik van unity game engine om het te maken. Voor dit game wordt er c# gebruikt. Ook heb ik het zelf design.</p>
+           <img src="Img/fallenvoid.jpg" alt="">
+            <button data-ftr-close class="close-btn">&times;</button>
+        </div>
+    </div>
+
+    <div class="modal-back" id="remember">
+        <div class="modal">
+            <h2>Remember me</h2>
+           <p>Remember me is ook een project waarmee ik bezig bent. Hiervoor gebruikt ik ook unity game engine. Dit game is bestemd voor pc gebruikers en het is een 2D story-based game</p>
+           <img src="Img/rememberme.png" alt="">
+            <button data-ftr-close class="close-btn">&times;</button>
+        </div>
+    </div>
+    <script src="Js/Main.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+@font-face{
+    src: url(../fonts/Montserrat-Medium.ttf); 
+    font-family: mont;
+}
+
+@font-face{
+    src: url(../fonts/phanthom.otf);
+    font-family: phan;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #02000c;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.wrapper{
+    width: 1920px;
+    max-height: 100%;
+    margin: 0 auto;
+
+}
+
+.fade_in{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
+.apear{
+    opacity: 1;
+    columns: black;
+}
+@import "home";
+@import "model";
